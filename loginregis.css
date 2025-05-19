@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.card p{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .username{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 4px;
+}
+.user label{
+    font-weight: bold;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.pass .password{
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 4px;
+}
+.pass label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(53, 53, 255);
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.card a{
+    font-size: 25px;
+}
+.sp{
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: rgb(53, 53, 255);
+    color: white;
+    border-radius: 4px;
+
+}
